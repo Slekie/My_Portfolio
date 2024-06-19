@@ -1,7 +1,173 @@
 <!DOCTYPE html>
-<html>
+<html style="background-color: darkgray;" lang="en-US">
     <head>
-        <title>Welcome</title>
+
+      <title>Home</title>
+      <meta charset="UTF-8">
+
+      <meta name="description" content="Michael's portfolio">
+      <meta name="author" content="Michael Bassey">
+
+      <meta http-equiv="refresh" content="30"> <!--Refresh document every 30 seconds-->
+
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <link rel="stylesheet" type="text/css" href="bootstrap.css">
+      <link rel="stylesheet" type="text/css" href="bootstrap.js">
+
+      <link rel="stylesheet" type="text/css" href="styles.css">
+      <link rel="stylesheet" type="text/css" href="myScript.js">
+
+      <!--[if lt IE 9]>
+	    <script src="bower_components/html5shiv/dist/html5shiv.js"></script>
+      <![endif]-->
+
     </head>
-    <h1>Hello World</h1>
+    <body>
+      <nav class="navbar sticky-top navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="images/charm1.jpg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+            Michael Bassey
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll align">
+            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll d-flex" style="--bs-scroll-height: 100px;">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="container">
+        <div class="mt-4 p-5 bg-primary text-white rounded">
+          <h1>The image galary</h1>
+          <p>Hey, I'm a machine learning Engineer, a data scientist and a full stack web developer</p>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-4 col-sm-6 pink">
+            <div>
+              <img src="images/img1.jpg" class="img-thumbnail" alt="Img 1">
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-6 pink">
+            <div>
+              <img src="images/img1.jpg" class="img-thumbnail" alt="">
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-6 pink">
+            <div>
+              <img src="images/img1.jpg" class="img-thumbnail" alt="">
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-6 pink">
+            <div>
+              <img src="images/img1.jpg" class="img-thumbnail" alt="Img 1">
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-6 pink">
+            <div>
+              <img src="images/img1.jpg" class="img-thumbnail" alt="">
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-6 pink">
+            <div>
+              <img src="images/img1.jpg" class="img-thumbnail" alt="">
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-6 pink">
+            <div>
+              <img src="images/img1.jpg" class="img-thumbnail" alt="Img 1">
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-6 pink">
+            <div>
+              <img src="images/img1.jpg" class="img-thumbnail" alt="">
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-6 pink">
+            <div>
+              <img src="images/img1.jpg" class="img-thumbnail" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+      <a href="google.com">Google</a>
+      <img src="images/dp.jpg" alt="my dp" style= "width:10%; height:10%">
+      <!--<img src="images/dp.jpg" alt="my dp" style="max-width:100%; height:auto;">-->
+      <div class="container text-center">
+        <div class="row">
+          <div class="col pink">
+            1 of 2
+          </div>
+          <div class="col pink">
+            2 of 2
+          </div>
+        </div>
+        <div class="row">
+          <div class="col pink">
+            1 of 3
+          </div>
+          <div class="col pink">
+            2 of 3
+          </div>
+          <div class="col pink">
+            3 of 3
+          </div>
+        </div>
+      </div>
+      <ul>
+        <li>Python programming</li>
+        <li>C programming</li>
+        <li>SQL</li>
+        <li>Data analysis</li>
+        <li>Machine learning</li>
+        <li>Artificial intelligence</li>
+      </ul>
+      <br>
+      <address>Beclan Odunze Compound, Road 12, Rumuekini </address>
+      <!-- This is how you do html comment-->
+      <a href="https:github.com" target="_blank">Git Hub</a>
+      <h2 id="C4">About us</h2>
+      <a href="#C4">Jump to about us 4</a> <!--link to the same page-->
+      <a href="html_demo.html#C4">Jump to Chapter 4</a><!--link to the another page-->
+      <!--<picture>
+        <source srcset="images/Machine_Learning_specialization.jpg">
+        <source srcset="dp">
+        <img src="images/Machine_Learning_specialization.jpg" alt="Machine learning" style="width:auto;">
+      </picture>
+      <picture>
+        <source srcset="/Users/Slick/Desktop/Web/My_Portfolio/images/Machine_Learning_specialization.jpg" media="(max-width: 600px)">
+        <source srcset="images/Machine_Learning_specialization.jpg" media="(max-width: 1500px)">
+        <source srcset="flowers.jpg">
+        <img src="images/Machine_Learning_specialization.jpg" alt="Flowers">
+        </picture>-->
+      <div style="background-color:black;color:white;padding:20px;">
+        <h2>London</h2>
+        <p>London is the capital city of England. It is the most populous city in the United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+      </div>
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-lg-3 col-md-3 col-sm-6 pink">Skills</div>
+          <div class="col-lg-3 col-md-3 col-sm-6 pink">Exp</div>
+          <div class="col-lg-3 col-md-3 col-sm-6 pink">Projets</div>
+          <div class="col-lg-3 col-md-3 col-sm-6 pink">Contact </div>
+        </div>
+      </div>
+      
+      <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    </body>
 </html>
